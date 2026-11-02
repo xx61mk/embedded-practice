@@ -1,0 +1,31 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+APP_DIR	Makefile	/^APP_DIR = .\/app $/;"	m
+CC	app/Makefile	/^CC := arm-linux-gnueabihf-gcc$/;"	m
+CUR_DIR	drv/Makefile	/^CUR_DIR := $(shell pwd)$/;"	m
+DEV_NAME	drv/adxl345.c	46;"	d	file:
+DRV_DIR	Makefile	/^DRV_DIR = .\/drv$/;"	m
+DST	app/Makefile	/^DST := app $/;"	m
+DST	drv/Makefile	/^DST :=adxl345$/;"	m
+KER_DIR	drv/Makefile	/^KER_DIR := \/home\/linux\/imx6ull\/linux-imx-rel_imx_4.1.15_2.1.0_ga_alientek$/;"	m
+SRC	app/Makefile	/^SRC := app.c $/;"	m
+__this_module	drv/adxl345.mod.c	/^__visible struct module __this_module$/;"	v	typeref:struct:module
+__used	drv/adxl345.mod.c	/^__used$/;"	v	file:
+__used	drv/adxl345.mod.c	/^__used$/;"	v	typeref:struct:____versions	file:
+fops	drv/adxl345.c	/^static struct file_operations fops = {$/;"	v	typeref:struct:file_operations	file:
+id_table	drv/adxl345.c	/^static struct spi_device_id id_table[] = {{$/;"	v	typeref:struct:spi_device_id	file:
+main	app/app.c	/^int main(int argc, char **argv)$/;"	f
+misc_dev	drv/adxl345.c	/^static struct miscdevice misc_dev = {$/;"	v	typeref:struct:miscdevice	file:
+myopen	drv/adxl345.c	/^int myopen(struct inode *n, struct file *f)$/;"	f
+myprobe	drv/adxl345.c	/^static int myprobe(struct spi_device *spi)$/;"	f	file:
+myread	drv/adxl345.c	/^ssize_t myread(struct file *f, char __user *data, size_t size, loff_t *off)$/;"	f
+myrelease	drv/adxl345.c	/^int myrelease(struct inode *n, struct file *f)$/;"	f
+myremove	drv/adxl345.c	/^static int myremove(struct spi_device *spi)$/;"	f	file:
+myspi_drv	drv/adxl345.c	/^module_spi_driver(myspi_drv);$/;"	v
+myspi_drv	drv/adxl345.c	/^static struct spi_driver myspi_drv = {.probe = myprobe,$/;"	v	typeref:struct:spi_driver	file:
+of_table	drv/adxl345.c	/^static struct of_device_id of_table[] = {{$/;"	v	typeref:struct:of_device_id	file:
+pspi	drv/adxl345.c	/^static struct spi_device *pspi;$/;"	v	typeref:struct:spi_device	file:

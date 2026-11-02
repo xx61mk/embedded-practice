@@ -1,0 +1,38 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+APP_DIR	Makefile	/^APP_DIR = .\/app $/;"	m
+BIT_OFFSET	drv/beep_drv.c	47;"	d	file:
+CC	app/Makefile	/^CC := arm-linux-gnueabihf-gcc$/;"	m
+CUR_DIR	drv/Makefile	/^CUR_DIR := $(shell pwd)$/;"	m
+DEV_NAME	drv/beep_drv.c	48;"	d	file:
+DRV_DIR	Makefile	/^DRV_DIR = .\/drv$/;"	m
+DST	app/Makefile	/^DST := app $/;"	m
+DST	drv/Makefile	/^DST :=beep_drv$/;"	m
+KER_DIR	drv/Makefile	/^KER_DIR := \/home\/linux\/imx6ull\/linux-imx-rel_imx_4.1.15_2.1.0_ga_alientek$/;"	m
+SRC	app/Makefile	/^SRC := app.c $/;"	m
+__this_module	drv/beep_drv.mod.c	/^__visible struct module __this_module$/;"	v	typeref:struct:module
+__used	drv/beep_drv.mod.c	/^__used$/;"	v	file:
+__used	drv/beep_drv.mod.c	/^__used$/;"	v	typeref:struct:____versions	file:
+attr	drv/beep_drv.c	/^static struct device_attribute attr = __ATTR(beep_state, 0664, myshow, mystore);$/;"	v	typeref:struct:device_attribute	file:
+beep_exit	drv/beep_drv.c	/^module_exit(beep_exit);$/;"	v
+beep_exit	drv/beep_drv.c	/^static void __exit beep_exit(void)$/;"	f	file:
+beep_init	drv/beep_drv.c	/^module_init(beep_init);$/;"	v
+beep_init	drv/beep_drv.c	/^static int __init beep_init(void)$/;"	f	file:
+fops	drv/beep_drv.c	/^static struct file_operations fops = {$/;"	v	typeref:struct:file_operations	file:
+io_data	drv/beep_drv.c	/^static volatile void *io_data = NULL;$/;"	v	file:
+io_dir	drv/beep_drv.c	/^static volatile void *io_dir = NULL;$/;"	v	file:
+io_mux	drv/beep_drv.c	/^static volatile void *io_mux = NULL;$/;"	v	file:
+io_pad	drv/beep_drv.c	/^static volatile void *io_pad = NULL;$/;"	v	file:
+main	app/app.c	/^int main(int argc, char **argv)$/;"	f
+misc_dev	drv/beep_drv.c	/^static struct miscdevice misc_dev = {$/;"	v	typeref:struct:miscdevice	file:
+myopen	drv/beep_drv.c	/^static int myopen(struct inode *node, struct file *f)$/;"	f	file:
+myread	drv/beep_drv.c	/^static ssize_t myread(struct file *f, char __user *data, size_t size, loff_t *off)$/;"	f	file:
+myrelease	drv/beep_drv.c	/^static int myrelease(struct inode *node, struct file *f)$/;"	f	file:
+myshow	drv/beep_drv.c	/^static ssize_t myshow(struct device *dev, struct device_attribute *attr, char *buf)$/;"	f	file:
+mystore	drv/beep_drv.c	/^static ssize_t mystore(struct device *dev, struct device_attribute *attr, const char *buf, size_t count)$/;"	f	file:
+mywrite	drv/beep_drv.c	/^static ssize_t mywrite(struct file *f, const char __user *data, size_t size, loff_t *off)$/;"	f	file:
+pnode	drv/beep_drv.c	/^struct device_node *pnode = NULL;$/;"	v	typeref:struct:device_node

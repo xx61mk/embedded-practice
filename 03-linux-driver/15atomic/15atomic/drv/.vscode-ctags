@@ -1,0 +1,16 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CUR_DIR	Makefile	/^CUR_DIR := $(shell pwd)$/;"	m
+DST	Makefile	/^DST :=th$/;"	m
+KER_DIR	Makefile	/^KER_DIR := \/home\/linux\/imx6ull\/linux-imx-rel_imx_4.1.15_2.1.0_ga_alientek$/;"	m
+count	th.c	/^atomic_t count = ATOMIC_INIT(0);$/;"	v
+test_exit	th.c	/^module_exit(test_exit);$/;"	v
+test_exit	th.c	/^static void __exit test_exit(void)$/;"	f	file:
+test_init	th.c	/^module_init(test_init);$/;"	v
+test_init	th.c	/^static int __init test_init(void)$/;"	f	file:
+th1	th.c	/^int th1(void *data)$/;"	f
+th2	th.c	/^int th2(void *data)$/;"	f

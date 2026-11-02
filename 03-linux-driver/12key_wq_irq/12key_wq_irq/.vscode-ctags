@@ -1,0 +1,43 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+APP_DIR	Makefile	/^APP_DIR = .\/app $/;"	m
+BITS_OFFSET	drv/key_drv.c	51;"	d	file:
+CC	app/Makefile	/^CC := arm-linux-gnueabihf-gcc$/;"	m
+CUR_DIR	drv/Makefile	/^CUR_DIR := $(shell pwd)$/;"	m
+DEV_NAME	drv/key_drv.c	47;"	d	file:
+DRV_DIR	Makefile	/^DRV_DIR = .\/drv$/;"	m
+DST	app/Makefile	/^DST := app $/;"	m
+DST	drv/Makefile	/^DST :=key_drv$/;"	m
+KER_DIR	drv/Makefile	/^KER_DIR := \/home\/linux\/imx6ull\/linux-imx-rel_imx_4.1.15_2.1.0_ga_alientek$/;"	m
+MYkey_OFF	drv/key_drv.c	/^  MYkey_OFF,$/;"	e	enum:__anon1	file:
+MYkey_ON	drv/key_drv.c	/^  MYkey_ON$/;"	e	enum:__anon1	file:
+MYkey_STATE	drv/key_drv.c	/^} MYkey_STATE;$/;"	t	typeref:enum:__anon1	file:
+SRC	app/Makefile	/^SRC := app.c $/;"	m
+__this_module	drv/key_drv.mod.c	/^__visible struct module __this_module$/;"	v	typeref:struct:module
+__used	drv/key_drv.mod.c	/^__used$/;"	v	file:
+__used	drv/key_drv.mod.c	/^__used$/;"	v	typeref:struct:____versions	file:
+attr	drv/key_drv.c	/^static struct device_attribute attr = __ATTR(key_state, 0664, show, store);$/;"	v	typeref:struct:device_attribute	file:
+fops	drv/key_drv.c	/^static struct file_operations fops = {$/;"	v	typeref:struct:file_operations	file:
+irq_no	drv/key_drv.c	/^static int irq_no = 0;$/;"	v	file:
+key_exit	drv/key_drv.c	/^module_exit(key_exit);$/;"	v
+key_exit	drv/key_drv.c	/^static void __exit key_exit(void)$/;"	f	file:
+key_gpio	drv/key_drv.c	/^static int key_gpio = 0;$/;"	v	file:
+main	app/app.c	/^int main(int argc, char **argv)$/;"	f
+misc_dev	drv/key_drv.c	/^static struct miscdevice misc_dev = {$/;"	v	typeref:struct:miscdevice	file:
+myhandler	drv/key_drv.c	/^irqreturn_t myhandler(int irq_no, void *arg)$/;"	f
+mykey_init	drv/key_drv.c	/^module_init(mykey_init);$/;"	v
+mykey_init	drv/key_drv.c	/^static int __init mykey_init(void)$/;"	f	file:
+mykey_state	drv/key_drv.c	/^MYkey_STATE mykey_state;$/;"	v
+myopen	drv/key_drv.c	/^static int myopen(struct inode *node, struct file *f)$/;"	f	file:
+myread	drv/key_drv.c	/^static ssize_t myread(struct file *f, char __user *data, size_t size, loff_t *off)$/;"	f	file:
+myrelease	drv/key_drv.c	/^static int myrelease(struct inode *node, struct file *f)$/;"	f	file:
+mywrite	drv/key_drv.c	/^static ssize_t mywrite(struct file *f, const char __user *data, size_t size, loff_t *off)$/;"	f	file:
+pnode	drv/key_drv.c	/^static struct device_node *pnode = NULL;$/;"	v	typeref:struct:device_node	file:
+show	drv/key_drv.c	/^ssize_t show(struct device *dev, struct device_attribute *attr, char *buf)$/;"	f
+store	drv/key_drv.c	/^ssize_t store(struct device *dev, struct device_attribute *attr, const char *buf, size_t count)$/;"	f
+wait_que	drv/key_drv.c	/^static wait_queue_head_t wait_que;$/;"	v	file:
+wait_que_cond	drv/key_drv.c	/^static int wait_que_cond = 0;$/;"	v	file:

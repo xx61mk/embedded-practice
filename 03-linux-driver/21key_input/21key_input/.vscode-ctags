@@ -1,0 +1,42 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+APP_DIR	Makefile	/^APP_DIR = .\/app $/;"	m
+CC	app/Makefile	/^CC := arm-linux-gnueabihf-gcc$/;"	m
+CUR_DIR	drv/Makefile	/^CUR_DIR := $(shell pwd)$/;"	m
+DRV_DIR	Makefile	/^DRV_DIR = .\/drv$/;"	m
+DST	app/Makefile	/^DST := app $/;"	m
+DST	drv/Makefile	/^DST :=key_drv$/;"	m
+KER_DIR	drv/Makefile	/^KER_DIR := \/home\/linux\/imx6ull\/linux-imx-rel_imx_4.1.15_2.1.0_ga_alientek$/;"	m
+SRC	app/Makefile	/^SRC := app.c $/;"	m
+__this_module	drv/key_drv.mod.c	/^__visible struct module __this_module$/;"	v	typeref:struct:module
+__used	drv/key_drv.mod.c	/^__used$/;"	v	file:
+__used	drv/key_drv.mod.c	/^__used$/;"	v	typeref:struct:____versions	file:
+inp_dev	drv/key_drv2.c	/^static struct input_dev *inp_dev;$/;"	v	typeref:struct:input_dev	file:
+key_exit	drv/key_drv.c	/^module_exit(key_exit);$/;"	v
+key_exit	drv/key_drv.c	/^static void __exit key_exit(void)$/;"	f	file:
+key_gpio	drv/key_drv.c	/^static int key_gpio;$/;"	v	file:
+key_gpio	drv/key_drv2.c	/^static int key_gpio;$/;"	v	file:
+key_handler	drv/key_drv.c	/^irqreturn_t key_handler(int num, void *arg)$/;"	f
+key_handler	drv/key_drv2.c	/^irqreturn_t key_handler(int no, void *data)$/;"	f
+key_irq	drv/key_drv2.c	/^static int key_irq;$/;"	v	file:
+key_irq_no	drv/key_drv.c	/^static int key_irq_no;$/;"	v	file:
+key_tm_handle	drv/key_drv2.c	/^void key_tm_handle(unsigned long data)$/;"	f
+main	app/app.c	/^int main(int argc, char **argv)$/;"	f
+mykey_init	drv/key_drv2.c	/^module_init(mykey_init);$/;"	v
+mykey_init	drv/key_drv2.c	/^static int __init mykey_init(void)$/;"	f	file:
+mykeyexit	drv/key_drv2.c	/^module_exit(mykeyexit);$/;"	v
+mykeyexit	drv/key_drv2.c	/^static void __exit mykeyexit(void)$/;"	f	file:
+mytimer	drv/key_drv.c	/^static struct timer_list mytimer;$/;"	v	typeref:struct:timer_list	file:
+pdev	drv/key_drv.c	/^static struct input_dev *pdev;$/;"	v	typeref:struct:input_dev	file:
+pnode	drv/key_drv.c	/^static struct device_node *pnode;$/;"	v	typeref:struct:device_node	file:
+pnode	drv/key_drv2.c	/^static struct device_node *pnode;$/;"	v	typeref:struct:device_node	file:
+ptkey_init	drv/key_drv.c	/^module_init(ptkey_init);$/;"	v
+ptkey_init	drv/key_drv.c	/^static int __init ptkey_init(void)$/;"	f	file:
+timer_handle	drv/key_drv.c	/^void timer_handle(unsigned long arg)$/;"	f
+tm_key	drv/key_drv2.c	/^struct timer_list tm_key;$/;"	v	typeref:struct:timer_list
+work_handle	drv/key_drv.c	/^void work_handle(struct work_struct *work)$/;"	f
+work_que	drv/key_drv.c	/^static struct work_struct work_que;$/;"	v	typeref:struct:work_struct	file:

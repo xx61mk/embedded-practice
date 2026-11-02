@@ -1,0 +1,35 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+APP_DIR	Makefile	/^APP_DIR = .\/app $/;"	m
+CC	app/Makefile	/^CC := arm-linux-gnueabihf-gcc$/;"	m
+CUR_DIR	drv/Makefile	/^CUR_DIR := $(shell pwd)$/;"	m
+DEV_NAME	drv/led_drv.c	40;"	d	file:
+DRV_DIR	Makefile	/^DRV_DIR = .\/drv$/;"	m
+DST	app/Makefile	/^DST := app $/;"	m
+DST	drv/Makefile	/^DST :=led_drv$/;"	m
+KER_DIR	drv/Makefile	/^KER_DIR := \/home\/linux\/imx6ull\/linux-imx-rel_imx_4.1.15_2.1.0_ga_alientek$/;"	m
+SRC	app/Makefile	/^SRC := app.c $/;"	m
+__this_module	drv/led_drv.mod.c	/^__visible struct module __this_module$/;"	v	typeref:struct:module
+__used	drv/led_drv.mod.c	/^__used$/;"	v	file:
+__used	drv/led_drv.mod.c	/^__used$/;"	v	typeref:struct:____versions	file:
+fops	drv/led_drv.c	/^static struct file_operations fops = {$/;"	v	typeref:struct:file_operations	file:
+id_table	drv/led_drv.c	/^struct platform_device_id id_table[] = {{$/;"	v	typeref:struct:platform_device_id
+led_exit	drv/led_drv.c	/^module_exit(led_exit);$/;"	v
+led_exit	drv/led_drv.c	/^static void __exit led_exit(void)$/;"	f	file:
+led_gpio	drv/led_drv.c	/^static int led_gpio = 0;$/;"	v	file:
+led_init	drv/led_drv.c	/^module_init(led_init);$/;"	v
+led_init	drv/led_drv.c	/^static int __init led_init(void)$/;"	f	file:
+main	app/app.c	/^int main(int argc, char **argv)$/;"	f
+misc_dev	drv/led_drv.c	/^static struct miscdevice misc_dev = {$/;"	v	typeref:struct:miscdevice	file:
+myclose	drv/led_drv.c	/^int myclose(struct inode *node, struct file *f)$/;"	f
+myopen	drv/led_drv.c	/^int myopen(struct inode *node, struct file * f)$/;"	f
+myprobe	drv/led_drv.c	/^static int myprobe(struct platform_device *pdev)$/;"	f	file:
+myremove	drv/led_drv.c	/^static int myremove(struct platform_device *pdev)$/;"	f	file:
+mywrite	drv/led_drv.c	/^ssize_t mywrite(struct file *f, const char __user *data, size_t size, loff_t * off)$/;"	f
+of_table	drv/led_drv.c	/^struct of_device_id of_table[] = {{$/;"	v	typeref:struct:of_device_id
+plat_drv	drv/led_drv.c	/^static struct platform_driver plat_drv = {$/;"	v	typeref:struct:platform_driver	file:
+pnode	drv/led_drv.c	/^static struct device_node *pnode = NULL;$/;"	v	typeref:struct:device_node	file:

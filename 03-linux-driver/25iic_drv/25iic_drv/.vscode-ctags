@@ -1,0 +1,28 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+APP_DIR	Makefile	/^APP_DIR = .\/app $/;"	m
+CC	app/Makefile	/^CC := arm-linux-gnueabihf-gcc$/;"	m
+CUR_DIR	drv/Makefile	/^CUR_DIR := $(shell pwd)$/;"	m
+DEV_NAME	drv/lm75.c	38;"	d	file:
+DRV_DIR	Makefile	/^DRV_DIR = .\/drv$/;"	m
+DST	app/Makefile	/^DST := app $/;"	m
+DST	drv/Makefile	/^DST :=lm75$/;"	m
+KER_DIR	drv/Makefile	/^KER_DIR := \/home\/linux\/imx6ull\/linux-imx-rel_imx_4.1.15_2.1.0_ga_alientek$/;"	m
+SRC	app/Makefile	/^SRC := app.c $/;"	m
+fops	drv/lm75.c	/^static struct file_operations fops = {$/;"	v	typeref:struct:file_operations	file:
+id_table	drv/lm75.c	/^static struct i2c_device_id id_table[] = {{.name = "ptlm75"}, {}};$/;"	v	typeref:struct:i2c_device_id	file:
+lm75_drv	drv/lm75.c	/^module_i2c_driver(lm75_drv);$/;"	v
+lm75_drv	drv/lm75.c	/^static struct i2c_driver lm75_drv = {.probe = myprobe,$/;"	v	typeref:struct:i2c_driver	file:
+main	app/app.c	/^int main(int argc, char **argv)$/;"	f
+misc_dev	drv/lm75.c	/^static struct miscdevice misc_dev = {$/;"	v	typeref:struct:miscdevice	file:
+myopen	drv/lm75.c	/^static int myopen(struct inode *node, struct file *f)$/;"	f	file:
+myprobe	drv/lm75.c	/^static int myprobe(struct i2c_client *cli, const struct i2c_device_id *id)$/;"	f	file:
+myread	drv/lm75.c	/^static ssize_t myread (struct file *f, char __user *data, size_t size, loff_t * off)$/;"	f	file:
+myrelease	drv/lm75.c	/^static int myrelease(struct inode *node, struct file *f)$/;"	f	file:
+myremove	drv/lm75.c	/^static int myremove(struct i2c_client *pcli)$/;"	f	file:
+of_table	drv/lm75.c	/^static struct of_device_id of_table[] = {{$/;"	v	typeref:struct:of_device_id	file:
+pcli	drv/lm75.c	/^static struct i2c_client *pcli;$/;"	v	typeref:struct:i2c_client	file:

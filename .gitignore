@@ -1,0 +1,30 @@
+# 编译产物
+*.o
+*.ko
+*.mod
+*.mod.c
+*.cmd
+*.order
+*.symvers
+*.bin
+*.elf
+*.hex
+*.a
+*.so
+*.exe
+*.OBJ
+*.LST
+*.lnp
+*.map
+a.out
+imxdownload
+
+# 目录
+.vscode/
+__pycache__/
+
+# 编辑器与系统
+*.swp
+*~
+.DS_Store
+Thumbs.db

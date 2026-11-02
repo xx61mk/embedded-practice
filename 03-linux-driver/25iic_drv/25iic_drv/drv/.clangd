@@ -1,0 +1,45 @@
+CompileFlags:
+  Add:
+    - --target=arm-linux-gnueabihf
+    - -mcpu=cortex-a7
+    - -mfloat-abi=hard
+    - -mfpu=neon
+    - -D__KERNEL__
+    - -DMODULE
+    - -D__LINUX_ARM_ARCH__=7
+    - -D__ARM_ARCH_7A__
+    - -nostdinc
+    - -isystem
+    - /home/linux/tools/opt/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/4.9.4/include
+    - -I/home/linux/imx6ull/linux-imx-rel_imx_4.1.15_2.1.0_ga_alientek/include
+    - -I/home/linux/imx6ull/linux-imx-rel_imx_4.1.15_2.1.0_ga_alientek/arch/arm/include
+    - -I/home/linux/imx6ull/linux-imx-rel_imx_4.1.15_2.1.0_ga_alientek/arch/arm/include/generated
+    - -I/home/linux/imx6ull/linux-imx-rel_imx_4.1.15_2.1.0_ga_alientek/include/uapi
+    - -I/home/linux/imx6ull/linux-imx-rel_imx_4.1.15_2.1.0_ga_alientek/arch/arm/include/uapi
+    - -I/home/linux/imx6ull/linux-imx-rel_imx_4.1.15_2.1.0_ga_alientek/include/generated/uapi
+    - -include
+    - /home/linux/imx6ull/linux-imx-rel_imx_4.1.15_2.1.0_ga_alientek/include/linux/kconfig.h
+    - -std=gnu90
+    - -Wno-implicit-int
+    - -Wno-unknown-attributes
+    - -Wno-macro-redefined
+    - -Wno-unused-function
+  Remove:
+    - -mno-thumb-interwork
+    - -msoft-float
+    - -funwind-tables
+    - -D__ASSEMBLY__
+
+Index:
+  Background: Build
+  
+
+Diagnostics:
+  Suppress:
+    - redefinition_different_type
+    - unknown_typename
+    - implicit_int
+    - unused_function
+  ClangTidy:
+    Add: []
+    Remove: ["*"]
