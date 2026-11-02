@@ -59,6 +59,10 @@ make -C /lib/modules/$(uname -r)/build M=$PWD modules
 
 编译：进入目录执行 `make`。
 
+## 实验笔记
+
+每个分类目录下有 `NOTES.md`，记录每个实验的关键知识点、踩过的坑和熟练度。代码会忘，笔记不会。
+
 ## 环境
 
 - 交叉编译工具链：`arm-linux-gnueabihf-gcc`
